@@ -1,0 +1,15 @@
+.moviesPageTitle {
+  font-size: 40px;
+  color: #8b4513;
+}
+
+.moviesLink {
+  text-decoration: none;
+  color: #8b4513;
+  font-size: 25px;
+}
+
+.moviesLink:hover,
+.moviesLink:focus {
+  color: #b8860b;
+}

@@ -1,0 +1,38 @@
+.moviesDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.btnGoBack {
+  padding: 16px 16px;
+  background-color: #b8860b;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  max-width: 70px;
+  text-align: center;
+
+  &:hover {
+    background-color: #8b4513;
+  }
+}
+
+.listLinks {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.itemLink {
+  text-decoration: none;
+  color: #8b4513;
+  font-size: 30px;
+}
+
+.itemLink:hover,
+.itemLink:focus {
+  color: #b8860b;
+}

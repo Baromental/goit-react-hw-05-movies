@@ -1,0 +1,10 @@
+.moviesItem {
+  text-decoration: none;
+  color: #8b4513;
+  font-size: 25px;
+}
+
+.moviesItem:hover,
+.moviesItem:focus {
+  color: #b8860b;
+}
